@@ -11,6 +11,12 @@ gem "jekyll", "~> 4.2"
 
 gem "jekyll-seo-tag"
 
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+
+gem "liquid", "~> 4.0.4"
+
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

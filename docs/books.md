@@ -1,5 +1,5 @@
 ---
-title: Published Books
+title: TELEIOS - Flaw, is Perfect!
 layout: categories
 permalink: /books/
 show_excerpts: true
