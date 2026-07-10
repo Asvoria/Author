@@ -11,12 +11,13 @@ gem 'csv'
 gem 'base64'
 gem 'bigdecimal'
 
-gem "liquid", "~> 4.0"
+gem "liquid", ">= 4.0.4", "< 5.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 2.0"
+  gem "jekyll-feed"
   gem "jekyll-gist"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
 end
+gem "logger", "~> 1.7"
