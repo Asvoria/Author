@@ -2,18 +2,26 @@
 
 - title: Home
   url: /
+<<<<<<< HEAD
 - title: TELEIOS
   url: /books/
 - title: PROMPT CLUB
   url: /promptclub/
 - title: ABOUT
   url: /about/
+=======
+>>>>>>> refactoring_by_copilot
 #- title: Art
 #  url: /categories/
 #- title: Art
 #  url: /tags/
+<<<<<<< HEAD
 - title: Art
   url: /art/
+=======
+# - title: Art
+#   url: /art/
+>>>>>>> refactoring_by_copilot
 #- title: Secret Corner
 #  url: /secret/
 - title: ♡SUPPORT ME♡

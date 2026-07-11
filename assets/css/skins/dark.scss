@@ -10,6 +10,7 @@
 /* Colors */
 $base-color: #eaeaea !default;
 $text-color: #eaeaea !default;
+<<<<<<< HEAD
 $accent-color: #fff3cd !default;
 $nav-color: #aeaeae !default;
 $background-color: #040606 !default;
@@ -20,6 +21,11 @@ $background-repeat: no-repeat;
 $background-attachment: fixed;
 */
 
+=======
+$accent-color: #f6c115 !default;
+$nav-color: #aeaeae !default;
+$background-color: #2f2a1a !default;
+>>>>>>> refactoring_by_copilot
 $nav-background-color: mix(#000, $background-color, 30%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $border-color: tint($base-color, 80%) !default;

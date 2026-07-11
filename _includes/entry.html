@@ -21,7 +21,11 @@
             
 
           {% endif %}
+<<<<<<< HEAD
           <div class="entry-excerpt p-summary" maxlength="4">
+=======
+          <div class="entry-excerpt p-summary" maxlength="3">
+>>>>>>> refactoring_by_copilot
 
           
           {% unless page.show_excerpts == false %}
@@ -40,7 +44,11 @@
 
       {% else %}
         <!--Here is how to see the Novel list-->
+<<<<<<< HEAD
         <a class="u-bookmark-of" href="{{ entry.link }}" target="_self">
+=======
+        <a class="u-bookmark-of" href="{{ entry.link }}" target="_blank">
+>>>>>>> refactoring_by_copilot
           {% if entry.image.path %}
             {% assign entry_image = entry.image.path %}
             {% unless entry_image contains '://' %}

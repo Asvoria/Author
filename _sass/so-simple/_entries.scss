@@ -53,7 +53,10 @@
   margin-bottom: 0.5rem;
   display: block;
   object-fit: cover;
+<<<<<<< HEAD
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+=======
+>>>>>>> refactoring_by_copilot
 }
 
 .entry-imagex {
@@ -96,6 +99,15 @@
   z-index: 10;
   display: flex;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.entry-excerpt a,
+.u-bookmark-ofx {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  display: flex;
 }
 
 .entry-excerpt a,
