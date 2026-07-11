@@ -8,17 +8,10 @@ remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Asvoria K.'s Page"
-<<<<<<< HEAD
-description: "Asvoria K. is an independent author/artist trying to write stories, <br>and make some digital manga style art with somewhat controversial themes.<br>Thanks for visiting!" 
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/badlywritten.png"
-=======
 description: "Asvoria K. is an independent author/artist trying to write stories, <br>and make some digital manga style art with somewhat controversial themes.<br>Thanks for visiting!"
-baseurl:
-url:
+baseurl: 
+url: 
 logo: "/images/proudly2.png"
->>>>>>> refactoring_by_copilot
 site_icon: "/images/favicon.png"
 site_shareimg: "https://asvoria.github.io/Author/images/banner_share.jpeg"
 date_format: "%B %-d, %Y"
@@ -26,29 +19,24 @@ read_time: false
 words_per_minute: 200
 
 # Google Fonts
-google_fonts:
+google_fonts: 
   - name: "Source Sans Pro"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"
 # Liquid
-liquid:
+liquid: 
   error_mode: strict
 
 # Build settings
 permalink: /:categories/:title/
 markdown: kramdown
-feed:
+feed: 
   path: atom.xml
 
-<<<<<<< HEAD
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 2
 #paginate_path: "./page:num/"
-=======
-# Pagination
-paginate: 2
->>>>>>> refactoring_by_copilot
 
 # Search
 search_full_content: false
@@ -57,24 +45,24 @@ search_full_content: false
 category_archive_path: "/categories/#"
 
 # Plugins
-plugins:
+plugins: 
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
 
 # Front Matter Defaults
-defaults:
+defaults: 
   # Posts defaults
-  - scope:
+  - scope: 
       path: "_posts"
       type: posts
-    values:
+    values: 
       layout: post
       share: true
 
 # Footer Links
-footer_links:
+footer_links: 
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
@@ -89,8 +77,4 @@ footer_links:
     icon: fab fa-discord
   - title: TikTok
     url: https://www.tiktok.com/@asvoria.k
-<<<<<<< HEAD
     icon: fab fa-tiktok
-=======
-    icon: fab fa-tiktok
->>>>>>> refactoring_by_copilot
