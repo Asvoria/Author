@@ -1,7 +1,7 @@
 ---
 title: "Prompt Club: A Novel"
 layout: post
-image:
+image: 
   path: /images/9789819439355.jpg
 link: https://www.kobo.com/us/en/ebook/prompt-club
 ---

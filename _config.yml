@@ -9,8 +9,8 @@ skin: "/assets/css/skins/dark.css"
 locale: en-US
 title: "Asvoria K.'s Page"
 description: "Asvoria K. is an independent author/artist trying to write stories, <br>and make some digital manga style art with somewhat controversial themes.<br>Thanks for visiting!"
-baseurl:
-url:
+baseurl: 
+url: 
 logo: "/images/proudly2.png"
 site_icon: "/images/favicon.png"
 site_shareimg: "https://asvoria.github.io/Author/images/banner_share.jpeg"
@@ -25,7 +25,7 @@ google_fonts:
   - name: "Lora"
     weights: "400,400i,700,700i"
 # Liquid
-liquid:
+liquid: 
   error_mode: strict
 
 # Build settings
@@ -44,19 +44,19 @@ search_full_content: false
 category_archive_path: "/categories/#"
 
 # Plugins
-plugins:
+plugins: 
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
 
 # Front Matter Defaults
-defaults:
+defaults: 
   # Posts defaults
-  - scope:
+  - scope: 
       path: "_posts"
       type: posts
-    values:
+    values: 
       layout: post
       share: true
 
